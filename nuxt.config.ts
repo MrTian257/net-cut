@@ -6,7 +6,12 @@ export default defineNuxtConfig({
     "@pinia/nuxt",
     "@nuxtjs/tailwindcss",
     "@nuxt/image",
-    "@nuxt/content"
+    "@nuxt/content",
+    "@nuxt/eslint",
+    "@nuxt/fonts",
+    "@nuxt/devtools",
+    "@nuxt/test-utils",
+    "@nuxt/scripts"
   ],
   routeRules: {
     // 为了SEO目的，在构建时生成
