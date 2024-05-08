@@ -1,8 +1,9 @@
 <template>
-  <div>
-    <NuxtWelcome />
-  </div>
-  <!-- 页面访问量：{{ count }} -->
+  <template>
+    <NuxtLayout>
+      <NuxtPage />
+    </NuxtLayout>
+  </template>
 </template>
 
 <script setup lang="ts">
