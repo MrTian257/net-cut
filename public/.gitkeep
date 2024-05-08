@@ -1,0 +1,1 @@
+The public/ directory is used to serve your website's static assets.
