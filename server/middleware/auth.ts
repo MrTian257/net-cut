@@ -1,7 +1,4 @@
-
 export default defineEventHandler((event) => {
-    return {
-      hello: 'world'
-    }
+    event.context.auth = { user: 123 }
   })
   
