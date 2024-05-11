@@ -1,9 +1,12 @@
-import type { Config } from 'tailwindcss';
+import type {Config} from 'tailwindcss';
 import daisyui from "daisyui";
 
 export default <Partial<Config>>{
   theme: {
-    extend: {}
+    extend: {},
+    container: {
+      center: true,
+    },
   },
   plugins: [
     daisyui,

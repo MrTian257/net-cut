@@ -11,8 +11,7 @@ useSeoMeta({
   ogImage: '/og-image.png'
 })
 
-// const { data: count } = await useFetch('/api/count')
 const appConfig = useAppConfig()
 
-console.log(appConfig.theme)
+// console.log(appConfig.theme)
 </script>

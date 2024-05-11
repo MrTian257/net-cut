@@ -1,4 +1,7 @@
 export default defineEventHandler((event) => {
-    event.context.auth = { user: 123 }
-  })
-  
+    // const {pathname} = getRequestURL(event)
+    // if (!pathname.startsWith('/api/')) {
+    // }
+
+    event.context.auth = {user: 123}
+})
